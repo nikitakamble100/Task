@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+#container{
+	margin-top: 10px;
+	position: relative;
+    width: 960px; 
+	flex-direction: row-reverse;
+	text-align: right;
+	justify-content: center;
+	
+}
+
+#container .icon{
+	width: 20px;
+	height: 20px;
+	float: right;
+	position: absolute;
+	right: -500px;
+	top: 15px;
+	display: inline;
+}
+#container .linkedin{
+	width: 20px;
+	height: 20px;
+	float: right;
+	position: absolute;
+	right: -450px;
+	top: 15px;
+	display: inline;
+	
+}
+#container .facebook{
+	width: 20px;
+	height: 20px;
+	float: right;
+	position: absolute;
+	right: -400px;
+	top: 15px;
+	display: inline;
+}
+#container .insta{
+width: 20px;
+	height: 20px;
+	float: right;
+	position: absolute;
+	right: -350px;
+	top: 15px;
+	display: inline;
+}
+#container .msg{
+	width: 20px;
+	height: 20px;
+	float: right;
+	position: absolute;
+	right: -300px;
+	top: 15px;
+	display: inline;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 30px;
+	text-align: center;
+}
+ ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ ul li a{
+ 	text-decoration: none;
+ 	color: #000;
+ 	padding: 20px 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 	font-size: 20px;
+ 	margin-right: 10px;
+ 	transition: 0.3s;
+ }
+
+.banner img{
+	width: 40%;
+	height: 40%;
+	float: right;
+	margin-top: 100px;
+	margin-left: 10px;
+
+}
+
+.intro{
+	width:50%;
+}
+.intro h2{
+	float:left;
+	margin-top: 150px;
+	margin-left: 20%;
+	font-size: 35px;
+	font-family:'Merriweather',serif;
+	font-weight: normal;
+}
+
+.intro button{
+	text-decoration: none;
+ 	color:#737373;
+	border: 2px solid #666666;
+ 	padding: 10px 10px;
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 15px;
+ 	background: #f2f2f2;
+ 	margin-left: 20%;
+ 	float:left;
+ 	margin-top: 50px;
+ 	transition: .1s;
+}
+
+.intro button:hover{
+	text-decoration: none;
+ 	color:white;
+ 	padding: 10px 10px;
+	font-family: 'Montserrat', sans-serif; 
+ 	font-size: 15px; 
+ 	background:black;
+ 	margin-left: 20%;
+ 	float:left;
+ 	margin-top: 50px;
+ 	transition: .2s;
+}
+
+.bg img{
+	opacity:0.1;
+	background-image:url(images/triangle.svg);
+	background-size: 10px;
+	position: absolute;
+    bottom: 5%;
+	left: 0%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+}
+
+.pills{
+	opacity: 0.2;
+	border: 2px solid rgba(0, 0,0, 1);
+	border-top-left-radius: 100em;
+	border-bottom-left-radius: 100em;
+	border-top-right-radius: 100em;
+	border-bottom-right-radius: 100em;
+}
+.pill1{
+	position: absolute;
+	height: 110px;
+	width: 200px;
+	right: 56%;
+	top: -5%;
+	transform: rotate(155deg);
+	transform: scale(1,1,1,1);
+}
+.pill2{
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	right: -14%;
+	margin-top: 80px;
+	transform: scale(1.5,1.5);
+}
+.pill3{
+	position: absolute;
+	height: 120px;
+	width: 250px;
+	bottom: -50px;
+	right: 300px;
+	transform: rotate(20deg);
+	transform: scale(1,1,1,1);
+}
+
+.selector {
+	right: 650px;
+	font-size: 20px;
+	bottom: 10%;
+	padding: 10px;
+	position: absolute;
+	text-decoration: black;
+	font-family: 'Poppins', sans-serif;
+	
+	-webkit-animation: scrolling 3s ease infinite;
+	-moz-animation: scrolling 3s ease infinite;
+	-o-animation: scrolling 3s ease infinite;
+	animation: scrolling 3s ease infinite;
+  }
+  
+  @keyframes scrolling {
+	0% { transform: translate(0);
+	}
+	50% {
+	transform: translate(0,40px);
+	}
+	100% { transform: translate(0);
+	}
+  }
